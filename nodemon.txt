@@ -1,0 +1,12 @@
+To install nodemon
+ npm i --save-dev nodemon
+
+ nodemon will show up in devdependences
+ in script change the title
+
+ "scripts": {
+    "nodemon":"nodemon app.js"
+  },
+
+  To run nodemon
+  npm run nodemon
