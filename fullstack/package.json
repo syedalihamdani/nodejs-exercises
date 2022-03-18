@@ -1,0 +1,19 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "Full stact web site",
+  "main": "app.js",
+  "scripts": {
+    "dev":"nodemon app.js -e js,hbs"
+  },
+  "author": "Hafiz Sayyed Ali Hamdani",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "hbs": "^4.2.0",
+    "mongoose": "^6.2.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
